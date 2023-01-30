@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miles Davis | Store</title>
+        <meta name="description" content="This is the description.">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="/store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header"> <!-- denotes header section of webpage -->
+            <nav class="nav main-nav"> <!-- denotes navigation section of webpage -->
+                <ul> <!-- stands for "unordered list", means bullet points -->
+                    <li><a href="index.html">HOME</a></li> <!-- "list item", can only be used within ul or ol -->
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul> <!-- ordered list uses numbers instead of bullet points -->
+            </nav>
+            <h1 class="band-name band-name-large">Miles Davis</h1>
+        </header>
+
+        <section class="content-section container">
+            <h2 class="section-header">MUSIC</h2>
+
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Birth of the Cool</span>
+                    <img class="shop-item-image" src="images/Birth_of_the_Cool.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Kind of Blue</span>
+                    <img class="shop-item-image" src="images/MilesDavisKindofBlue.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Miles Smiles</span>
+                    <img class="shop-item-image" src="images/Miles_Davis_-_Miles_Smiles.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Milestones</span>
+                    <img class="shop-item-image" src="images/milestones.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section container">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Sketches of Spain Mug</span>
+                    <img class="shop-item-image" src="images/miles_mug.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$4.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Miles Davis Shirt</span>
+                    <img class="shop-item-image" src="images/miles_shirt.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <span class="cart-total-title">Total</span>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+        </section>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="band-name">Miles Davis</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://www.youtube.com/@MilesDavis" target="_blank">
+                    <img src="images/YouTube Logo.png">
+                </a></li>
+                <li><a href="https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4" target="_blank">
+                    <img src="images/Spotify Logo.png">
+                </a></li>
+            </ul>
+            </div>
+        </footer>
+    </body>
+</html>
